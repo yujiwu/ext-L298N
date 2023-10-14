@@ -1,6 +1,9 @@
 {
-    "mpu6050.moduleInit|block": "初始化MPU6050模块",
-    "mpu6050.getOriginalData|block": "获取原始数据",
-    "mpu6050.getRoll|block": "计算翻滚角",
-    "mpu6050.getPitch|block": "计算俯仰角"
+    "l298n.motorInit|block": "初始化电机[LIST]，由针脚[PIN1]和针脚[PIN2]控制",
+    "l298n.motorAction|block": "电机[LIST][ACTION]",
+    "l298n.setMotorSpeed|block": "设置电机[LIST]的速度[SPEED]",
+    "l298n.actions.Forward|menu": "前进",
+    "l298n.actions.Backward|menu": "后退",
+    "l298n.actions.Stop|menu": "停止"
+    
 }

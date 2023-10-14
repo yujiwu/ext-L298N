@@ -1,17 +1,17 @@
 {
 	"name": {
-		"zh-cn": "MPU-6050陀螺仪模块",
-		"en": "MPU-6050 accelerometer"
+		"zh-cn": "L298N电机模块",
+		"en": "L298N motor module"
 	},
 	"description": {
-		"zh-cn": "六轴陀螺仪模块包含加速度计        作者: UG",
-		"en": "MPU-6050 Module with accelerometer and gyrometer written by UG"
+		"zh-cn": "L298N工作电压4.5V-35V, 含降压模块, 但最高支持12V降压    作者: UG",
+		"en": "Working voltage of L298N ranges from 4.5V to 35V; L298N has 12V BEC."
 	},
 	"author": "UG",
 	"email": "cswuyujieapp@126.com",
 	"license": "MIT",
 	"isBoard": false,
-	"id": "mpu6050",
+	"id": "l298n",
 	"platform": ["win", "mac", "web"],
 	"version": "0.0.1",
 	"asset": {
