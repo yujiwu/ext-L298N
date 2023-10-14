@@ -56,9 +56,9 @@ L298N 通常需要使用单片机提供 PWM 信号作为输入调速信号，具
 
 
 # Block Description
-* Use the first block to initialize the module
-* Use the second block in while loop to repeatedly request for data
-* Use the third and fourth block the calculate the roll and pitch angle respectively
+* Use the first block to initialize the motor (M1-M6)
+* Use the second block to set the motor moving direction; code generated in while loop
+* Use the third block to set the speed of the motor, which requires the enable pins are connected
 
 # Release Logs
 * V0.0.1  Basic functions completed.
